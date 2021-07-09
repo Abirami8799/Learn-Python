@@ -21,25 +21,4 @@ for root, dirs, files in os.walk("/home/abirami/Music/findfolder", topdown=False
 file=open(s[0],"r")
 word=file.read()
 print(word)
- 
-
-
-
-
-
-                      
-        
-
-
            
-               
-           
-
-
-
-
-
-
-        
-
-
