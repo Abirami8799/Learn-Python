@@ -1,7 +1,7 @@
 
 
 import os
-key = input("enter the word  ")
+key = input("enter the length of the string  ")
 letter=input("enter the first letter of word")
 dict = {'3': 'len_3' , '4': 'len_4', '5':'len_5'}  
 if key in dict:
