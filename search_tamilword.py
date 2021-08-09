@@ -1,8 +1,7 @@
 
 import tamil
 from tamil.utf8 import  get_letters, get_letters_length, get_words
-import time
-start=time.time()
+
 
 with open ('unique_sorted_words_in_all_words_20200604-133955.txt') as file:
     words=[line.strip() for line in file]
@@ -26,5 +25,4 @@ for each in words:
           print(m)
 
           
-end=time.time()
-print(f'runt time {end-start}')   
+   
